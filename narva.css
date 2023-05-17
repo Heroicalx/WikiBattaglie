@@ -1,0 +1,244 @@
+header {
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  background-color: darkgoldenrod;
+}
+
+#wikibattles {
+  text-shadow: 1px 1px blue;
+  font-family: Lora, serif;
+  float: left;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: blue;
+  margin-right: 1300px;
+  padding: 20px;
+  background-color: lightgrey;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background: black;
+  width: 1510px;
+  display: flex;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-family: Lora, sans-serif;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: inline-block;
+  color: white;
+  text-align: justify;
+  padding: 20px 50px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: lightgrey;
+  color: white;
+   }
+
+#main-page {
+  background-color: grey;
+}
+
+h2 {
+  font-family: Lora, sans-serif;
+}
+
+#img-narva {
+  width:300px;
+  height: 200px;
+  border-radius: 8px;
+  background: red;
+  transition: width 1s, height 1s;
+}
+
+#img-narva:hover {
+  width: 600px;
+  height: 500px;
+  transition: width 2s, height 2s;
+}
+
+h4 {
+  margin: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: justify;
+  font-size: 20px;
+  background-color: white;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  text-align: justify;
+  background-color: lightgrey;
+}
+
+th {
+  text-align: justify;
+  background-color: grey;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+  text-align: justify;
+}
+
+td:first-child {
+  font-weight: bold;
+  font-family: Lora, serif;
+  background-color: lightblue;
+}
+
+p {
+  font-family: Lora, serif;
+  font-size: 20px;
+}
+
+#img-carlo {
+  height: 304px;
+  width: 200px;
+  border-radius: 8px;
+  transition: width 1s, height 1s;
+  float: left;
+  padding-right: 30px;
+}
+
+#img-carlo:hover {
+  height: 504px;
+  width: 400px;
+  transition: width 2s, height 2s;
+}
+
+#img-pietro {
+  height: 304px;
+  width: 200px;
+  border-radius: 8px;
+  transition: width 1s, height 1s;
+}
+
+#img-pietro:hover {
+  height: 504px;
+  width: 400px;
+  transition: width 2s, height 2s;
+}
+
+#bandiera-svedese {
+  height: 150px;
+  width: 300px;
+  transition: width 1s, height 1s;
+}
+
+#bandiera-svedese:hover {
+  height: 300px;
+  width: 600px;
+  transition: width 2s, height 2s;
+}
+
+#bandiera-russa {
+  height: 150px;
+  width: 350px;
+  transition: width 1s, height 1s;
+}
+
+#bandiera-russa:hover {
+  height: 300px;
+  width: 500px;
+  transition: width 2s, height 2s;
+}
+
+#mappa-di-narva {
+  height: 222px;
+  width: 368px;
+  border-radius: 8px;
+  transition: width 1s, height 1s;
+}
+
+#mappa-di-narva:hover {
+  height: 344px;
+  width: 636px;
+  transition: width 2s, height 2s;
+}
+
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+footer {
+  margin-top: auto;
+  background-color: lightgrey;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: blue;
+  padding: 20px;
+  text-align: center;
+}
+
+#qr-code {
+  width: 100px;
+  height: 100px;
+  transition: width 1s, height 1s;
+}
+
+#qr-code:hover {
+  width: 300px;
+  height: 300px;
+  transition: width 2s, height 2s;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer a {
+  color: #666;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #000;
+}
